@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+:root {
+    --color01: rgb(36, 35, 35);
+    --color02: rgb(189, 42, 46);
+
+    --font-main: 'Haevitas';
+    --font-body: 'Times New Roman', Times, serif;
+}
+
+
+section#book-bar {
+    display: table;
+    margin-bottom: 20px;
+}
+
+div#book-bg {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 1;
+    width: 150px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+div#book-bg:hover {
+    opacity: 0.8;
+}
+div#book-bg img {
+    height: 150px;
+}
+div#book-bg h1 {
+    color: var(--color01);
+    font-size: 16px;
+    margin: 5px;
+}
+div#book-bg h2 {
+    color: var(--color01);
+    font-size: 20px;
+    font-family: var(--font-main);
+    font-weight: normal;
+    margin: 5px;
+}
+div#book-bg h3 {
+    color: var(--color01);
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px;
+}
+div#book-bg h4 {
+    color: var(--color01);
+    text-decoration: line-through;
+    font-size: 16px;
+    font-family: var(--font-main);
+    font-weight: normal;
+    margin: 5px;
+}
+
+section#collections {
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+    line-height: 1;
+    width: 150px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+img#collection {
+    height: 300px;
+    margin: 0px 10px;
+}
+img#collection:hover {
+    opacity: 0.8;
+}
+
+a#author:hover {
+    text-decoration: 1px underline var(--color01);
+}
+
+section#book {
+    display: flex;
+}
+
+img#cover {
+    height: 450px;
+    margin: 20px 40px 20px 0px;
+}
+
+aside#description {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+h2#topic {
+    color: var(--color01);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0px;
+}
+
+p#description {
+    color: var(--color01);
+    font-family: var(--font-body);
+    font-size: 20px;
+    margin: 5px 0px 15px 0px;
+}
+
+p#topic {
+    display: inline-block;
+    background-color: var(--color02);
+    color: snow;
+    font-family: var(--font-main);
+    font-size: 12px;
+    padding: 4px 6px;
+    margin: 5px 10px 15px 0px;
+    border-radius: 10px;
+}
+p#topic:hover {
+    background-color: rgb(124, 28, 31);
+}
+
+section#buy {
+    margin-bottom: 40px;
+} 
+
+h2#cut-price {
+    color: var(--color01);
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: line-through;
+    margin: 2px 20px;
+}
+
+h3#price {
+    color: var(--color01);
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 16px;
+    margin: 2px 20px;
+}
+
+div#buy-button {
+    background-color: var(--color02);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+div#buy-button:hover {
+    background-color: rgb(124, 28, 31);
+}
+
+h1#buy {
+    color: snow;
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+h4#cart {
+    color: var(--color01);
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 16px;
+    text-align: right;
+    margin: 2px 20px 60px 20px;
+}
+h4#cart:hover {
+    text-decoration: underline;
+}

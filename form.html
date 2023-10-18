@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresta Editorial - Página Inicial</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/books.css">
+    <link rel="shortcut icon" href="images/favicon/fresta.ico" type="image/x-icon">
+</head>
+<body>
+    <header><img id="main-logo" src="images/logo/fresta-r.png"></header>
+    <nav>
+        <a href="cart.html" title="Carrinho"><img id="nav-icon" src="images/icons/cart-b.png"></a>
+        <a href="index.html" title="Início">Início</a>
+        <a href="catalog.html" title="Catálogo">Catálogo</a>
+        <a href="collections.html" title="Coleções">Coleções</a>
+        <a href="#contact" title="Contato">Contato</a>
+        <a href="https://instagram.com" title="Nosso Instagram" target="_blank"><img id="nav-icon" src="images/icons/in-b.png"></a>
+    </nav>
+    </a>
+    <main>
+        <h1 id="title">Fale Conosco</h1>
+        <form action="mailto:editorialfresta@gmail.com" method="post" id="iContatos">
+            <fieldset id="user">
+                <legend>Identificação do Usuário</legend>
+                    <p>
+                        <label for="Nome">Nome</label> <input type="text" name="iNome" id="Name" size="30" maxlength="50" placeholder="Nome Completo"></input><br>
+                        <label for="Email">Email</label> <input type="email" name="iEmail" id="Email" size="30" placeholder="Email(exemplo@exemplo.com)"></input>
+                        <p>
+                            <fieldset id="gender">
+                                <legend id="gender">Gênero</legend>
+                                <input type="radio" name="iGenero" id="Masculino"><label for="Homem"> Homem</label></input><br>
+                                <input type="radio" name="iGenero" id="Feminino"><label for="Mulher"> Mulher</label></input><br>
+                                <input type="radio" name="iGenero" id="Nao-Binario"><label for="Homem"> Não-Binário</label></input><br>
+                                <input type="radio" name="iGenero" id="Nao-Dizer"><label for="Homem"> Prefiro não dizer</label></input>
+                            </fieldset>
+                        </p>
+                    </p>
+            </fieldset><br>
+
+            <fieldset id="adress">
+                <legend>Endereço do Usuário</legend>
+                    <p>
+                        <label for="Logradouro">Logradouro</label> <input type="text" name="iLogradouro" id="Logradouro" size="30" placeholder="Rua, Avenida, Travessa, etc..."></input><br>
+                        <label for="Numero">Número</label> <input type="number" name="iNúmero" id="Numero" size="1" min="1" max="999999" placeholder="Número"></input><br>
+                        <label for="Estado">Estado</label> <select name="iEstado" id="Estado">
+                            <optgroup label="Norte">
+                                <option value="iAC">Acre</option>
+                                <option value="iAM">Amazonas</option>
+                                <option value="iPA">Pará</option>
+                                <option value="iRO">Rondônia</option>
+                                <option value="iRR">Roraima</option>
+                                <option value="iTO">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Nordeste">
+                                <option value="iBA">Bahia</option>
+                                <option value="iCE">Ceará</option>
+                                <option value="iMA">Maranhão</option>
+                                <option value="iPB">Paraíba</option>
+                                <option value="iPE">Pernambuco</option>
+                                <option value="iPI">Piauí</option>
+                                <option value="iRN">Rio Grande do Norte</option>
+                                <option value="iSE">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Centro-Oeste">
+                                <option value="iDF">Distrito Federal</option>
+                                <option value="iGO">Goiás</option>
+                                <option value="iMT">Mato Grosso</option>
+                                <option value="iMS">Mato Grosso do Sul</option>
+                            </optgroup>
+                            <optgroup label="Sudeste">
+                                <option value="iES">Espirito Santo</option>
+                                <option value="iMG">Minas Gerais</option>
+                                <option value="iRJ">Rio de Janeiro</option>
+                                <option value="iSP">São Paulo</option>
+                            </optgroup>
+                            <optgroup label="Sul">
+                                <option value="iPR">Paraná</option>
+                                <option value="iRS">Rio Grande do Sul</option>
+                                <option value="iSC">Santa Catarina</option>
+                            </optgroup>
+                        </select><br>
+                        <label for="Cidade">Cidade</label> <input type="text" name="iCidade" id="Cidade" size="20" placeholder="Cidade"></input>
+                    </p>
+            </fieldset><br>
+
+            <fieldset id="message">
+                <legend>Mensagem</legend>
+                    <p>
+                        <label for="Mensagem"></label> <textarea name="iMensagem" id="Mensagem" cols="50" rows="10" maxlength="512" placeholder="Deixe sua mensagem"></textarea>
+                    </p>
+            </fieldset><br>
+
+            <input id="button" type="submit" value="Enviar">
+            <input id="button" type="reset" value="Limpar">
+        </form><br>
+    </main>
+    <footer>
+        <aside id="contact">
+            <h1>Contato</h1>
+            <p id="instagram"><a href="https://www.instagram.com/fresta_editorial/" title="@fresta_editorial" target="_blank">fresta_editorial</a></p>
+            <p id="whatsapp"><a href="https://whatsapp.com" title="(21)9xxxx-xx92" target="_blank">(21)9xxxx-xx52</a></p>
+            <p id="email"><a href="form.html" title="editorialfresta@gmail.com">editorialfresta@gmail.com</a></p>
+            <h1>Endereço</h1>
+            <p id="localization"><a href="https://googlemaps.com" title="R. Antolino Lopez, 32 - Méier - Rio de Janeiro - RJ" target="_blank">R. Antolino Lopez, 32 - Méier - Rio de Janeiro - RJ</a></p>
+        </aside><aside id="payment">
+            <h1>Formas de Pagamento</h1>
+            <p>Pix | Boleto | Débito | Crédito</p>
+            <p id="quote">"Os filósofos têm apenas interpretado o mundo de maneiras diferentes; a questão, porém, é transformá-lo."</p>
+            <p id="quoter">-Karl Marx</p>
+
+        </aside>
+        <article id="about-us">
+            <h1>Sobre Nós</h1>
+            <p>A Fresta é uma livraria de orientação progressista criada com o intuito de facilitar o acesso a autores progressistas no Brasil. Fundada em 19 de Maio de 2022 pelos jornalistas <a href="https://instagram.com" title="Instagram" target="_blank">Luciano Ferreira</a> e <a href="https://instagram.com" title="Instagram" target="_blank">Carla Rocha</a>. Acompanhe nosso trabalho também por nossas redes sociais.</p>
+        </article>
+        <p id="credits">Site Desenvolvido por <a href="https://www.instagram.com/igorab05/" title="@igorab05" target="_blank">Igor Abreu</a> © Todos os Direitos Reservados - 2023</p>
+    </footer>
+</body>
+</html>

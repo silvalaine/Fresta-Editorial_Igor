@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root {
+    --color01: rgb(36, 35, 35);
+    --color02: rgb(189, 42, 46);
+
+    --font-main: 'Haevitas';
+    --font-body: 'Times New Roman', Times, serif;
+}
+
+main {
+    width: 600px;
+}
+
+input {
+    color: var(--color01);
+}
+
+fieldset {
+    border: 3px solid var(--color02);
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+fieldset#gender {
+    border: none;
+    width: max-content;
+    margin-left: -20px;
+}
+
+legend {
+    font-family: var(--font-main);
+    color: var(--color01);
+    text-align: center;
+}
+legend#gender {
+    font-size: 16px;
+    text-align: left;
+}
+
+input {
+    margin: 5px 0px;
+}
+
+input#button {
+    background-color: var(--color02);
+    color: snow;
+    font-family: var(--font-main);
+    border: none;
+    border-radius: 3px;
+}
+input#button:hover {
+    background-color: rgb(124, 28, 31);
+    cursor: pointer;
+}
+
+textarea {
+    border: 1px solid var(--color01);
+    font-family: var(--font-body);
+    padding: 10px;
+}
